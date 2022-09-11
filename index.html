@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/a8e9c3020c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My Music Player</title>
+  </head>
+  <body>
+    <header class="header__music-title">
+      <h1 id="music-name">sting for the moment</h1>
+    </header>
+
+    <main class="main">
+      <figure>
+        <img src="image/default.jpg" id="music-cover" alt="" />
+      </figure>
+      <section class="main__music-slider">
+        <input id="music-time" type="range" value="0" class="slider" />
+        <div id="btns">
+          <i id="pre-btn" class="fas fa-backward"></i>
+          <i id="play-btn" class="fas fa-play"></i>
+          <i id="next-btn" class="fas fa-forward"></i>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
